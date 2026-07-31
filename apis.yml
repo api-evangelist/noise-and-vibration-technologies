@@ -1,23 +1,58 @@
 aid: noise-and-vibration-technologies
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/noise-and-vibration-technologies.png
 name: Noise & Vibration Technologies
-description: Noise & Vibration Technologies is a company surfaced as a portfolio company of battery-ventures
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Noise & Vibration Technologies (NVT Group) is a Battery Ventures-backed platform of
+  test-and-measurement companies that design, manufacture, and support equipment for
+  measuring, simulating, and analyzing vibration, noise, shock, and other environmental
+  variables. Its operating brands include Data Physics (SignalCalc dynamic signal
+  analyzers and vibration controllers), Team Corporation (electrodynamic and hydraulic
+  shakers), and Lansmont (package and product-testing systems), serving aerospace,
+  defense, commercial space, automotive, and industrial customers worldwide. The company
+  ships hardware and desktop analysis/control software rather than any public web API,
+  REST service, SDK, or developer portal, so it has no programmable API surface for the
+  API Evangelist network at this time.
 url: https://raw.githubusercontent.com/api-evangelist/noise-and-vibration-technologies/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - battery-ventures
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-api-surface
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Test and Measurement
+- Vibration Testing
+- Noise
+- Instrumentation
+- Aerospace
+- Hardware
 apis: []
+common:
+- type: Website
+  url: https://nvtgroup.com/
+  name: NVT Group Website
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
